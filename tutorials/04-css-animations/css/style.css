@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+ }
+ 
+ 
+ *,
+ *:before,
+ *:after {
+    box-sizing: inherit;
+    margin: 24;
+    padding: 24;
+ }
+ 
+ 
+ html,
+ body {
+    height: 100%;
+ }
+ 
+ 
+ body {
+     font-size: 1.6rem;
+    /* font-size 1.6rem is now the same as 16px */
+    line-height: 1.6;
+
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+ }
+
+
+ @keyframes stretching {
+    0% {
+        width: 100px;
+    }
+    100%{
+        width: 100vw;
+    }
+}
+ 
+ 
+ .button{
+    display: inline-block;
+    background-color: rgba(255, 190, 220);
+    animation-name: stretching, bgcolor;
+    animation: 5s infinite alternate linear;
+    transform: skew(24deg, 8deg);
+    height: 24px;
+    width: 120px;
+}
