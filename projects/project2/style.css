@@ -1,0 +1,233 @@
+
+
+html {
+    box-sizing: content-box;
+    font-size: 62.5%;
+ }
+ 
+ body {
+    height: 100%;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-family: sans-serif;
+    background: hsl(0, 0%, 0%);
+
+    /* custom cursor */
+    cursor: url('images/cursor.png'), auto;
+ }
+
+ main {
+   margin: 20px 20px;
+   text-align: center;
+   position: relative;
+}
+
+.image-div {
+   display: inline-block;
+}
+
+ /* text effect for title */
+ .grain {
+   color: #0000; 
+   font-family: sans-serif;
+   font-size: 100px;
+   font-weight: bold;
+   background: 
+     repeating-radial-gradient(#000 0 0.0001%,#fff 0 0.0002%) 50% 0/2500px 2500px,
+     repeating-conic-gradient(#000 0 0.0001%,#fff 0 0.0002%) 50% 50%/2500px 2500px;
+   background-blend-mode: difference;
+   mix-blend-mode: lighten;
+   -webkit-background-clip: text;
+           background-clip: text;
+ }
+
+ /* fade in effect on AI images */
+ .fadein-img {
+   opacity: 0;
+   transition: 1s ease;
+   }
+   
+.fadein-img:hover {
+   opacity: 1;
+   transition: 1s ease;
+ }
+
+ /* frog photos */
+ #frogai {
+   position: absolute;
+   top: 0px;
+   right: 1450px;
+   z-index: 0;
+}
+#frogai2 {
+   position: absolute;
+   top: 0px;
+   right: 1450px;
+   z-index: 1;
+}
+#frogreal {
+   position: absolute;
+   top: 0px;
+   right: 1050px;
+   z-index: 1;
+}
+
+ /* kids photos */
+ #kidsreal {
+   position: absolute;
+   top: 225px;
+   right: 1450px;
+   z-index: 1;
+}
+#kidsai {
+   position: absolute;
+   top: 225px;
+   right: 1050px;
+   z-index: 0;
+}
+#kidsai2 {
+   position: absolute;
+   top: 225px;
+   right: 1050px;
+   z-index: 1;
+}
+
+ /* fuji photos */
+ #fujireal {
+   position: absolute;
+   top: 450px;
+   right: 1450px;
+   z-index: 1;
+}
+ #fujiai {
+   position: absolute;
+   top: 450px;
+   right: 1050px;
+   z-index: 0;
+}
+#fujiai2 {
+   position: absolute;
+   top: 450px;
+   right: 1050px;
+   z-index: 1;
+}
+
+ /* egypt photos */
+ #egyptai {
+   position: absolute;
+   top: 675px;
+   right: 1450px;
+   z-index: 0;
+}
+ #egyptai2 {
+   position: absolute;
+   top: 675px;
+   right: 1450px;
+   z-index: 1;
+}
+#egyptreal {
+   position: absolute;
+   top: 675px;
+   right: 1050px;
+   z-index: 1;
+}
+
+ /* sky photos */
+ #skyreal {
+   position: absolute;
+   top: 900px;
+   right: 1450px;
+   z-index: 1;
+}
+ #skyai {
+   position: absolute;
+   top: 900px;
+   right: 1050px;
+   z-index: 0;
+}
+#skyai2 {
+   position: absolute;
+   top: 900px;
+   right: 1050px;
+   z-index: 1;
+}
+
+ /* city photos */
+ #cityai {
+   position: absolute;
+   top: 1125px;
+   right: 1450px;
+   z-index: 0;
+}
+ #cityai2 {
+   position: absolute;
+   top: 1125px;
+   right: 1450px;
+   z-index: 1;
+}
+#cityreal {
+   position: absolute;
+   top: 1125px;
+   right: 1050px;
+   z-index: 1;
+}
+
+ /* hurricane photos */
+ #hurricaneai {
+   position: absolute;
+   top: 1350px;
+   right: 1450px;
+   z-index: 0;
+}
+ #hurricaneai2 {
+   position: absolute;
+   top: 1350px;
+   right: 1450px;
+   z-index: 1;
+}
+#hurricanereal {
+   position: absolute;
+   top: 1350px;
+   right: 1050px;
+   z-index: 1;
+}
+
+ /* kamala photos */
+ #kamalareal {
+   position: absolute;
+   top: 1575px;
+   right: 1450px;
+   z-index: 1;
+}
+ #kamalaai {
+   position: absolute;
+   top: 1575px;
+   right: 1050px;
+   z-index: 0;
+}
+#kamalaai2 {
+   position: absolute;
+   top: 1575px;
+   right: 1050px;
+   z-index: 1;
+}
+
+ /* trump photos */
+ #trumpai {
+   position: absolute;
+   top: 1800px;
+   right: 1450px;
+   z-index: 0;
+}
+ #trumpai2 {
+   position: absolute;
+   top: 1800px;
+   right: 1450px;
+   z-index: 1;
+}
+#trumpreal {
+   position: absolute;
+   top: 1800px;
+   right: 1050px;
+   z-index: 1;
+}
